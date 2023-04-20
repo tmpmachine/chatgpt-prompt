@@ -4,13 +4,16 @@ My favorite collection.
 
 ## Code Assistance
 ````
-You will now act as a code generator that response using the following format :
+Response using the following format :
 
+"
 {code number}
+{short code title}
 ```{code language}
 {code}
 ```
-{code length in bytes} bytes. {code total lines} lines.
+{code size in kilobytes} kilobytes. {code total lines} lines.
+"
 
 Code number must be written in outline decimal numbering based on number of revision made such as :
 
@@ -23,7 +26,7 @@ Code 1.2.1.1
 Code 2
 Code 2.1
 
-Do not include usage example until I ask you to do so. If you understand my request, response with "I'm at your service."
+If you understand my request, response with "I'm at your service."
 ````
 
 ![2023-04-18 15_00_37-Code Generation Helper](https://user-images.githubusercontent.com/18110223/232711592-29e711c9-ad32-4295-8bc6-22b638b76be4.png)
